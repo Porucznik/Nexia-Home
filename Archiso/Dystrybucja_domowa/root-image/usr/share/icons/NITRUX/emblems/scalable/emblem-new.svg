@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="24"
+   height="24"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48+devel r12012"
+   sodipodi:docname="emblem-document.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6919092"
+     inkscape:cx="-158.9195"
+     inkscape:cy="-84.73176"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1366"
+     inkscape:window-height="718"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-1028.3622)">
+    <g
+       transform="translate(0,1.7382813e-5)"
+       id="g846">
+      <rect
+         ry="3.0515654"
+         y="1029.3622"
+         x="1"
+         height="22"
+         width="22"
+         id="rect817"
+         style="color:#000000;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="rect3992"
+         d="M 4.0555556,1029.3622 C 2.3649882,1029.3622 1,1030.7272 1,1032.4178 l 0,15.8888 c 0,0.9975 0.4865291,1.8501 1.2222222,2.4063 -0.5166957,-0.5462 -0.8402778,-1.2479 -0.8402778,-2.0625 l 0,-15.8889 c 0,-1.6906 1.3649884,-3.0555 3.0555556,-3.0555 l 15.888888,0 c 0.739624,0 1.382634,0.2528 1.909724,0.6875 -0.558411,-0.6347 -1.375943,-1.0313 -2.291668,-1.0313 L 4.0555556,1029.3622 Z"
+         style="color:#000000;fill:#000000;fill-opacity:0.8851064;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+    </g>
+    <rect
+       style="color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+       id="rect824"
+       width="11.493192"
+       height="15.254601"
+       x="6.2534041"
+       y="1032.7349" />
+    <g
+       id="g832"
+       transform="translate(2.3841858e-7,0.10456971)">
+      <rect
+         style="color:#000000;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect826"
+         width="7.836267"
+         height="1.4627703"
+         x="8.0818663"
+         y="1035.1379" />
+      <rect
+         y="1039.5262"
+         x="8.0818663"
+         height="1.4627703"
+         width="7.836267"
+         id="rect828"
+         style="color:#000000;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate" />
+      <rect
+         style="color:#000000;fill:#333333;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.39999998;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+         id="rect830"
+         width="7.836267"
+         height="1.4627703"
+         x="8.0818663"
+         y="1043.9146" />
+    </g>
+  </g>
+</svg>

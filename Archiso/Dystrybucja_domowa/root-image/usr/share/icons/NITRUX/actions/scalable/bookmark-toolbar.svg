@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="48"
+   height="48"
+   id="svg3987"
+   version="1.1"
+   inkscape:version="0.48+devel r12149"
+   sodipodi:docname="bookmark_add.svg">
+  <defs
+     id="defs3989" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="3.2747559"
+     inkscape:cx="-6.0900562"
+     inkscape:cy="31.782156"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata3992">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-238.85715,-496.93362)">
+    <polygon
+       transform="matrix(0.40324749,0,0,0.40324749,-465.5294,291.98099)"
+       style="fill:#1a1a1a"
+       points="1782.131,604.97 1788.449,577.5 1767.189,558.99 1795.27,556.516 1806.303,530.574 1817.336,556.516 1845.414,558.99 1824.154,577.5 1830.473,604.97 1806.303,590.468 "
+       id="Star__x2014__Used_to_flag_a_data_item_as_important_or_as_favorite._Typical_applications_range_from_bookmarking_web_pages_in_a_browser_to_promoting_contacts_to_favorites._1_" />
+  </g>
+</svg>

@@ -1,0 +1,7 @@
+[Desktop Entry]
+Comment=
+Terminal=true
+Name=Zmiana hasla uzytkownika
+Exec=ruby /etc/haslo.rb
+Type=Application
+Icon=/etc/.kludka.png

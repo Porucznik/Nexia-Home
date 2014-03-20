@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Excel
+Comment=Excel
+Exec=sudo gparted
+Icon=/etc/.Gparted.png
+Path=
+Terminal=false
+StartupNotify=false
+Name[pl_PL]=Konfiguracja partycji
+Comment[pl_PL.UTF-8]=

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg7384"
+   height="16"
+   width="16"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="battery-missing-symbolic.svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="14.75"
+     inkscape:cx="-2.9152542"
+     inkscape:cy="8"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg7384" />
+  <metadata
+     id="metadata90">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Gnome Symbolic Icon Theme</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <title
+     id="title9167">Gnome Symbolic Icon Theme</title>
+  <g
+     transform="matrix(0.375,0,0,0.375,-1,-377.63583)"
+     id="layer1"
+     inkscape:label="Capa 1"
+     style="fill:#bebebe;fill-opacity:1">
+    <g
+       transform="matrix(0,1,-1,0,1052.3622,1004.3622)"
+       id="g850"
+       style="fill:#bebebe;fill-opacity:1">
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#bebebe;fill-opacity:1;stroke:none"
+         d="m 24.013137,1024.5317 -1.83167,1.8315 1.998816,1.999 -1.998816,1.9988 1.83167,1.8317 1.998814,-1.999 1.998815,1.999 1.831668,-1.8317 -1.998816,-1.9988 1.998816,-1.999 -1.831668,-1.8315 -1.998815,1.9988 -1.998814,-1.9988 z"
+         id="rect1923" />
+      <path
+         inkscape:connector-curvature="0"
+         style="fill:#bebebe;fill-opacity:1;stroke:none"
+         d="m 12.023897,1020.3534 0,16.0176 27.976107,0 0,-16.0176 -27.976107,0 z m 1.998293,2.0295 23.979521,0 0,11.9586 -23.979521,0 0,-11.9586 z"
+         id="rect2985-0" />
+      <path
+         style="fill:#bebebe;fill-opacity:1;stroke:none"
+         d="m 11.034622,1032.3637 0,-8.0383 -3.0346182,0 0,8.0383 z"
+         id="path2993-0"
+         inkscape:connector-curvature="0" />
+    </g>
+  </g>
+</svg>

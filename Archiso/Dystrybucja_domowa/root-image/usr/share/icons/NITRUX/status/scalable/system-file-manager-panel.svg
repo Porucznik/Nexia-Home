@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg3801"
+   height="48"
+   width="48"
+   version="1.1"
+   inkscape:version="0.48+devel r12274"
+   sodipodi:docname="system-file-manager-panel.svg">
+  <defs
+     id="defs10" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     id="namedview8"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="12"
+     inkscape:cy="24.20339"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3801" />
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <path
+     inkscape:connector-curvature="0"
+     id="path474"
+     style="fill:#1a1a1a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+     d="m 40.807922,13.600142 c -0.220397,-0.879064 -1.308739,-1.599691 -2.420597,-1.599691 l -13.627082,0 c -1.108141,0 -2.657074,-0.635149 -3.444541,-1.411496 L 20.128323,9.409015 C 19.339617,8.632669 17.791964,8 16.683783,8 L 10.172377,8 C 9.0642359,8 8.0563739,8.892704 7.9362557,9.988445 l -0.5843897,5.21263 33.859687,0 L 40.807922,13.600142 z m 1.331017,4.400403 -36.2790471,0 c -1.8398878,0 -1.9315259,0.896424 -1.8312077,1.992165 L 5.6754151,38.007795 C 5.7756942,39.099857 6.0356892,40 7.8756167,40 l 32.2475973,0 c 1.875806,0 2.096203,-0.900143 2.19648,-1.992205 L 43.971387,19.99271 c 0.100326,-1.095741 0.0076,-1.992165 -1.832448,-1.992165" />
+</svg>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="16"
+   height="16"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.48.3.1 r9886"
+   version="1.0"
+   sodipodi:docname="edit-redo-symbolic.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#9a9a9a"
+     borderopacity="1"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="18.863371"
+     inkscape:cx="10.896628"
+     inkscape:cy="7.6195271"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer3"
+     showgrid="true"
+     inkscape:showpageshadow="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="716"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3672"
+       visible="true"
+       enabled="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Arrow"
+     style="display:inline">
+    <g
+       transform="matrix(0.40000006,0,0,0.40000006,-1.6000014,-403.34494)"
+       id="layer1"
+       inkscape:label="Capa 1"
+       style="fill:#bebebe;fill-opacity:1">
+      <g
+         style="fill:#bebebe;fill-opacity:1"
+         transform="matrix(2.2839629,0,0,-2.2839629,40.28073,1021.1872)"
+         id="g124">
+        <path
+           inkscape:connector-curvature="0"
+           id="path126"
+           style="fill:#bebebe;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           d="m 0,0 -0.074,-2.439 -2.44,-0.075 -2.437,-0.076 1.398,1.401 c -0.006,0.005 -0.01,0.013 -0.017,0.021 -0.426,0.426 -0.91,0.748 -1.451,0.969 -0.542,0.22 -1.096,0.332 -1.661,0.334 -0.566,0.002 -1.121,-0.106 -1.66,-0.324 -0.541,-0.217 -1.021,-0.538 -1.445,-0.961 -0.436,-0.436 -0.756,-0.924 -0.961,-1.463 -0.205,-0.541 -0.299,-1.094 -0.283,-1.66 0.013,-0.567 0.136,-1.122 0.371,-1.663 0.226,-0.523 0.547,-0.992 0.953,-1.408 l -2.365,-2.365 c -0.739,0.744 -1.297,1.586 -1.674,2.527 -0.381,0.952 -0.576,1.916 -0.586,2.901 -0.012,0.982 0.168,1.949 0.537,2.902 0.371,0.951 0.932,1.803 1.684,2.553 0.763,0.765 1.623,1.334 2.574,1.703 0.951,0.371 1.922,0.553 2.912,0.549 C -5.637,3.42 -4.666,3.229 -3.717,2.85 -2.783,2.475 -1.941,1.916 -1.189,1.174 L 0.076,2.438 0,0 z" />
+      </g>
+    </g>
+  </g>
+</svg>
