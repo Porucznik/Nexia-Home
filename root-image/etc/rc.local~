@@ -1,7 +1,0 @@
-useradd -m -G users,audio,lp,optical,storage,video,wheel,power -s /bin/bash uzytkownik
-# Create the user directory for live session
-#if [ ! -d /home/uzytkownik ]; then
-    #mkdir /home/uzytkownik && chown uzytkownik /home/uzytkownik
-#fi
-# Copy files over to home
-#su -c "cp -r /etc/skel/.* /home/uzytkownik/" uzytkownik
