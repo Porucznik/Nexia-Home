@@ -10,12 +10,4 @@ lib32-intel-dri
 lib32-libgl
 lib32-qt4
 lib32-alsa-lib
-skype
-pidgin
-evince
-gimp
-libreoffice
-libreoffice-pl
-ssx
-pamac-aur
 lib32-libpulse
