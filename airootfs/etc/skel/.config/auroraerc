@@ -1,0 +1,7 @@
+[Engine]
+EngineType=qml
+ThemeName=kwin4_decoration_qml_breeze
+
+[kwin4_decoration_qml_breeze]
+BorderSize=0
+ButtonSize=0

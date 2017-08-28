@@ -1,6 +1,5 @@
-grub-efi-x86_64
-prebootloader
 gummiboot
+prebootloader
 refind-efi
 lib32-glibc
 lib32-libstdc++5
@@ -10,4 +9,5 @@ lib32-intel-dri
 lib32-libgl
 lib32-qt4
 lib32-alsa-lib
+ssx
 lib32-libpulse

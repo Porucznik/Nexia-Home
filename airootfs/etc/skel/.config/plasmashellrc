@@ -1,0 +1,15 @@
+[PlasmaRunnerManager]
+LaunchCounts=
+pluginWhiteList=services,bookmarks,baloosearch
+
+[PlasmaViews][Panel 1][Horizontal1057]
+length=1057
+panelVisibility=0
+
+[PlasmaViews][Panel 1][Horizontal1366]
+length=1366
+panelVisibility=0
+
+[PlasmaViews][Panel 1][Horizontal640]
+length=640
+panelVisibility=0

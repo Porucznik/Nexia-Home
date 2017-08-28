@@ -1,0 +1,16 @@
+[DownloadDialog Settings]
+Window-Maximized 768x1366=true
+
+[MainWindow]
+Height 768=481
+MenuBar=Disabled
+State=AAAA/wAAAAD9AAAAAAAAAnwAAAG7AAAABAAAAAQAAAAIAAAACPwAAAABAAAAAgAAAAEAAAAWAG0AYQBpAG4AVABvAG8AbABCAGEAcgEAAAAA/////wAAAAAAAAAA
+ToolBarsMovable=Disabled
+Width 1366=636
+Window-Maximized 480x640=true
+Window-Maximized 638x1042=true
+Window-Maximized 639x1023=true
+Window-Maximized 640x1057=true
+
+[PlasmaRunnerManager]
+LaunchCounts=
