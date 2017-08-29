@@ -1,7 +1,7 @@
-grub-efi-x86_64
-prebootloader
-gummiboot
-refind-efi
+#grub-efi-x86_64
+#prebootloader
+#gummiboot
+#refind-efi
 lib32-glibc
 lib32-libstdc++5
 lib32-nouveau-dri
