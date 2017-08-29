@@ -64,7 +64,7 @@ xf86-video-vesa
 xf86-input-synaptics
 xdg-user-dirs
 xorg-server
-xorg-server-utils
+#xorg-server-utils
 xorg-xinit
 cinnamon
 cinnamon-control-center
@@ -72,7 +72,7 @@ nemo
 conky
 gparted
 chromium
-chromium-pepper-flash
+pepper-flash
 alsa-utils
 ntfs-3g
 gnome-system-monitor
@@ -91,12 +91,11 @@ cinnamon-screensaver
 gnome-screenshot
 nemo-fileroller
 bash-completion
-skype
 pidgin
 steam
 evince
 gimp
-libreoffice
-libreoffice-pl
+libreoffice-fresh
+libreoffice-fresh-pl
 gnome-packagekit
-gnome-settings-daemon-updates
+gnome-settings-daemon
