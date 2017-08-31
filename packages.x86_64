@@ -11,3 +11,6 @@
 #lib32-qt4
 #lib32-alsa-lib
 #lib32-libpulse
+linux-headers
+virtualbox-guest-utils
+virtualbox-guest-dkms
