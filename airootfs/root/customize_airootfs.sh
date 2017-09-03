@@ -7,7 +7,7 @@ locale-gen
 
 ln -sf /usr/share/zoneinfo/UTC /etc/localtime
 
-usermod -s /usr/bin/bash root
+usermod -s /usr/bin/zsh root
 cp -aT /etc/skel/ /root/
 chmod 700 /root
 
@@ -30,6 +30,7 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
 
+systemctl enable vboxservice.service
 #systemctl disable dhcpcd@
 #systemctl enable wpa_supplicant
 #systemctl enable NetworkManager
