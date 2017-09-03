@@ -6,3 +6,4 @@ lib32-libpulse
 linux-headers
 virtualbox-guest-utils
 virtualbox-guest-dkms
+networkmanager

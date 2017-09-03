@@ -31,6 +31,6 @@ systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
 
 systemctl enable vboxservice.service
-#systemctl disable dhcpcd@
-#systemctl enable wpa_supplicant
-#systemctl enable NetworkManager
+systemctl disable dhcpcd@
+systemctl enable wpa_supplicant
+systemctl enable NetworkManager
