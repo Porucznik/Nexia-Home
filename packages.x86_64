@@ -1,9 +1,59 @@
+# Nexia packages
+## System
+zsh
+ruby
+alsa-utils
+ntfs-3g
+base-devel
+bash-completion
+linux-headers
+## System (32 bit libs)
 lib32-glibc
 lib32-libstdc++5
 lib32-mesa
 lib32-alsa-lib
 lib32-libpulse
-linux-headers
+## Drivers
+xf86-video-intel
+xf86-video-nouveau
+xf86-video-ati
+xf86-video-vesa
+xf86-input-synaptics
 virtualbox-guest-utils
 virtualbox-guest-dkms
+## Xorg
+xdg-user-dirs
+xorg-server
+xorg-xinit
+## Desktop environment
+cinnamon
+cinnamon-control-center
+nemo
+nemo-fileroller
 networkmanager
+gnome-packagekit
+gnome-settings-daemon
+cinnamon-screensaver
+gnome-screenshot
+gnome-keyring
+gnome-system-monitor
+gnome-calculator
+gedit
+gnome-terminal
+gksu
+## Software
+conky
+gparted
+chromium
+pepper-flash
+fakeroot
+shotwell
+audacious
+vlc
+p7zip
+wxgtk
+pidgin
+evince
+gimp
+libreoffice-fresh
+libreoffice-fresh-pl
