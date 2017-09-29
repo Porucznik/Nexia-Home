@@ -11,21 +11,6 @@
     puts ""
     puts ""
 
-    puts "Prosze wybrac wersje systemu do zainstalowania, 32 bitowa (32), czy"\
-         " 64 bitowa (64)?"
-    puts "Uwaga! Musi zostac wybrana ta sama wersja systemu, ktora jest"\
-         " uruchomiona na live."
-    # Pobranie informacji o wersji systemu od użytkownika	
-    $WersjaSystemu = gets.chomp!
-    puts ""
-    puts ""
-    until $WersjaSystemu == "32" || $WersjaSystemu == "64"
-        puts "Prosze poprawnie wpisac wersje systemu!"
-        $WersjaSystemu = gets.chomp!
-    end
-    puts ""
-    puts ""
-
     # Wyświetlenie układu partycji
     system "lsblk"
     puts ""
@@ -117,8 +102,8 @@
     puts ""
     puts ""
 
-    # Uruchomienie 2 cześci instalatora zależnie od wersji systemu
-    system "arch-chroot /mnt ruby /etc/nexia/Instalacja2_#{$WersjaSystemu}.rb"
+    # Uruchomienie 2 cześci instalatora
+    system "arch-chroot /mnt ruby /etc/nexia/Instalacja2.rb"
     elsif i =="n"
         puts "Do widzenia"
     end
