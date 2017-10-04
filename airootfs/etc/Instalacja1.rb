@@ -92,18 +92,25 @@
         system "cp /etc/lxdm.conf /mnt/home"
         system "cp -R /etc/nexia /mnt/etc"
 
-    # Zostaje przekopiowania różna konfiguracja conkiego w zależności
-    # czy istnieje osobna partycja home czy nie
-    if $HomeWybor == "t"
-        system "cp /etc/.conkyrc /mnt/etc/skel"
-    elsif $HomeWybor == "n"
-        system "cp /etc/skel/.conkyrc /mnt/etc/skel"
-    end
-    puts ""
-    puts ""
+        # Zostaje przekopiowania różna konfiguracja conkiego w zależności
+        # czy istnieje osobna partycja home czy nie
+        if $HomeWybor == "t"
+            system "cp /etc/.conkyrc /mnt/etc/skel"
+        elsif $HomeWybor == "n"
+            system "cp /etc/skel/.conkyrc /mnt/etc/skel"
+        end
+        puts ""
+        puts ""
 
-    # Uruchomienie 2 cześci instalatora
-    system "arch-chroot /mnt ruby /etc/nexia/Instalacja2.rb"
+        # Uruchomienie 2 cześci instalatora
+        system "arch-chroot /mnt ruby /etc/nexia/Instalacja2.rb"
+
+        # Odmontowywanie partycji i zakończenie instalacji
+        system "umount -R /mnt"
+        puts "Instalacja zakonczona! Prosze nacisnac enter aby zakonczyc."
+        wyjscie = gets.chomp!
+
     elsif i =="n"
+        system "umount -R /mnt"
         puts "Do widzenia"
     end

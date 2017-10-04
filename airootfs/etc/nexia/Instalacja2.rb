@@ -254,6 +254,4 @@
     puts ""
 
     # Koniec instalacji
-    puts "Instalacja zakonczona! Prosze nacisnac enter aby zakonczyc."
-    wyjscie = gets.chomp!
     system "exit"
