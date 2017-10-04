@@ -175,11 +175,8 @@
         system "pacman -S virtualbox-guest-utils --noconfirm"
     end
 
-    # Dodanie dodatkowych repozytoriów i instalacja paczek - 
+    # Dodanie repozytorium multilib (32 bit) i instalacja paczek - 
     # Podstawowych nexi i tych wybranych wcześniej przez użytkownika
-    system "( echo [repo64] ; echo SigLevel = Never ; echo Server ="\
-           " https://dl.dropboxusercontent.com/u/44000136/Repo64/) >>"\
-           " /etc/pacman.conf"
     system "( echo [multilib] ; echo SigLevel = PackageRequired ;"\
            " echo Include = /etc/pacman.d/mirrorlist ; echo [multilib] ;"\
            " echo SigLevel = Never ; echo Include = /etc/pacman.d/mirrorlist)"\
