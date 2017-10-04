@@ -2,6 +2,6 @@
 Comment=
 Terminal=true
 Name=Instalacja systemu
-Exec=sudo ruby /etc/Instalacja1.rb
+Exec=sudo ruby /etc/nexia/Instalacja1.rb
 Type=Application
 Icon=/etc/.instalaicon.png
