@@ -52,7 +52,7 @@
     puts "Czy rozpoczac instalacje podstawowych skladnikow systemu ?(t/n)"
     i = gets.chomp!
     if i == "t"
-        system "pacstrap -i /mnt base ruby --noconfirm"
+        system "pacstrap -i /mnt base linux-headers ruby --noconfirm"
         system "genfstab -U -p /mnt >> /mnt/etc/fstab"
         puts ""
         puts ""
@@ -88,7 +88,8 @@
         system "cp /usr/share/fonts/TTF/Dragon.ttf /mnt/usr/share/fonts/TTF"
         system "cp /usr/share/fonts/TTF/fonts.dir /mnt/usr/share/fonts/TTF"
         system "cp /usr/share/fonts/TTF/fonts.scale /mnt/usr/share/fonts/TTF"
-        system "cp -R /usr/share/backgrounds /mnt/usr/share"
+        system "mkdir /mnt/usr/share/backgrounds"
+        system "cp -R /usr/share/backgrounds/*.jpg /mnt/usr/share/backgrounds"
         system "cp /etc/lxdm.conf /mnt/home"
         system "cp -R /etc/nexia /mnt/etc"
 

@@ -6,7 +6,7 @@
     system "export LANG=pl_PL.UTF-8"
     system "loadkeys pl"
     system "setfont Lat2-Terminus16"
-    system "ln -s /usr/share/zoneinfo/Europe/Warsaw /etc/localtime"
+    system "ln -sf /usr/share/zoneinfo/Europe/Warsaw /etc/localtime"
     system "hwclock --systohc --utc"
 
     # Pytanie o sieciową nazwe komputera
@@ -18,8 +18,7 @@
 
     # Pytanie o posiadana karte graficzną
     puts "Prosze wybrac sterownik pod posiadana karte graficzna:"\
-         " (1 - Nvidia, 2 - Nvidia, modele starszej serii od 8000, 3 - Ati,"\
-         " 4 - Intel, 5 - Vesa, 6 - Virtualbox)"
+         " (1 - Nvidia, 2 - Ati/Amd, 3 - Intel, 4 - Vesa, 5 - Virtualbox)"
     $VideoDriver = gets.chomp!
     puts ""
     puts ""
@@ -51,27 +50,27 @@
     puts "Czy chcesz zainstalowac pakiet biurowy Libre Office ? t/n"
     $OfficeSet = gets.chomp!
     if $OfficeSet == "t"
-        $ListaPaczek << "libreoffice libreoffice-pl "
+        $ListaPaczek << "libreoffice-fresh libreoffice-fresh-pl "
     elsif $OfficeSet == "n"
 	    print "Zrezygnowano z instalacji programu."
     end
     puts ""
     puts ""
 
-    puts "Czy chcesz zainstalowac program Dropbox ? t/n"
-    $CloudDisk = gets.chomp!
-    if $CloudDisk == "t"
-        $ListaPaczek << "dropbox "
-    elsif $CloudDisk == "n"
-        print "Zrezygnowano z instalacji programu."
-    end
-    puts ""
-    puts ""
+    #puts "Czy chcesz zainstalowac program Dropbox ? t/n"
+    #$CloudDisk = gets.chomp!
+    #if $CloudDisk == "t"
+    #    $ListaPaczek << "dropbox "
+    #elsif $CloudDisk == "n"
+    #    print "Zrezygnowano z instalacji programu."
+    #end
+    #puts ""
+    #puts ""
 
     puts "Czy chcesz zainstalowac graficzny menedzer pakietow ? t/n"
     $PackageSet = gets.chomp!
     if $PackageSet == "t"
-        $ListaPaczek << "gnome-packagekit gnome-settings-daemon-updates "
+        $ListaPaczek << "gnome-packagekit "
     elsif $PackageSet == "n"
         print "Zrezygnowano z instalacji programu."
     end
@@ -112,28 +111,27 @@
     puts "Czy chcesz zainstalowac Steam ? t/n"
     $GamesPlatform = gets.chomp!
     if $GamesPlatform == "t"
-        $ListaPaczek << "steam lib32-glibc lib32-libstdc++5 lib32-qt4"\
-                        " lib32-alsa-lib "
+        $ListaPaczek << "steam-native-runtime "
     elsif $GamesPlatform == "n"
         print "Zrezygnowano z instalacji programu."
     end
     puts ""
     puts ""
 
-    puts "Czy chcesz zainstalowac komunikator Skype ? t/n"
-    $VoiceChat = gets.chomp!
-    if $VoiceChat == "t"
-        $ListaPaczek << "skype lib32-libpulse "
-    elsif $VoiceChat == "n"
-        print "Zrezygnowano z instalacji programu."
-    end
-    puts ""
-    puts ""
+    #puts "Czy chcesz zainstalowac komunikator Skype ? t/n"
+    #$VoiceChat = gets.chomp!
+    #if $VoiceChat == "t"
+    #    $ListaPaczek << "skype lib32-libpulse "
+    #elsif $VoiceChat == "n"
+    #    print "Zrezygnowano z instalacji programu."
+    #end
+    #puts ""
+    #puts ""
 
     puts "Czy chcesz zainstalowac program Wine ? t/n"
     $Wine = gets.chomp!
     if $Wine == "t"
-        $ListaPaczek << "wine wine-mono wine_gecko "
+        $ListaPaczek << "wine wine-mono wine_gecko winetricks "
     elsif $Wine == "n"
         print "Zrezygnowano z instalacji programu."
     end
@@ -161,31 +159,28 @@
 
     # If przemienający wcześniejszy wybór sterownika na konkretne paczki do instalacji
     if $VideoDriver == "1"
-        system "pacman -S nvidia nvidia-libgl lib32-nvidia-libgl --noconfirm"
+        system "pacman -S xf86-video-nouveau lib32-mesa --noconfirm"
     elsif $VideoDriver == "2"
-        system "pacman -S nvidia-304xx nvidia-304xx-libgl"\
-               " lib32-nvidia-304xx-libgl --noconfirm"
+        system "pacman -S xf86-video-ati lib32-mesa --noconfirm"
     elsif $VideoDriver == "3"
-        system "pacman -S xf86-video-ati --noconfirm"
+        system "pacman -S xf86-video-intel lib32-mesa --noconfirm"
     elsif $VideoDriver == "4"
-        system "pacman -S xf86-video-intel --noconfirm"
-    elsif $VideoDriver == "5"
         system "pacman -S xf86-video-vesa --noconfirm"
-    elsif $VideoDriver == "6"
-        system "pacman -S virtualbox-guest-utils --noconfirm"
+    elsif $VideoDriver == "5"
+        system "pacman -S virtualbox-guest-utils virtualbox-guest-dkms --noconfirm"
     end
 
     # Dodanie repozytorium multilib (32 bit) i instalacja paczek - 
     # Podstawowych nexi i tych wybranych wcześniej przez użytkownika
-    system "( echo [multilib] ; echo SigLevel = PackageRequired ;"\
-           " echo Include = /etc/pacman.d/mirrorlist ; echo [multilib] ;"\
-           " echo SigLevel = Never ; echo Include = /etc/pacman.d/mirrorlist)"\
+    system "( echo [multilib] ;"\
+           " echo Include = /etc/pacman.d/mirrorlist)"\
            " >> /etc/pacman.conf"
     system "pacman -Syy"
-    system "pacman -S phonon-gstreamer bash-completion xorg-server"\
+    system "pacman -S phonon-qt4-gstreamer phonon-qt5-gstreamer"\
+           "  bash-completion xorg-server sudo networkmanager"\
            " xorg-xinit cinnamon cinnamon-control-center nemo"\
            " gnome-terminal ntfs-3g conky xdg-user-dirs chromium"\
-           " chromium-pepper-flash  xterm alsa-utils gksu gedit p7zip wxgtk"\
+           " pepper-flash  xterm alsa-utils gksu gedit p7zip wxgtk"\
            " shotwell gnome-system-monitor gnome-keyring base-devel"\
            " cinnamon-screensaver gnome-calculator evince gnome-screenshot"\
            " nemo-fileroller #{$ListaPaczek} --noconfirm"
@@ -193,14 +188,14 @@
     puts ""
 
     # Tworzenie podstawowej konfiguracji startx
-    system "rm /etc/skel/.xinitrc"
-    system "mv /home/.xinitrc /etc/skel"
+    system "mv /home/.xinitrc /etc/skel/.xinitrc"
 
     # Tworzenie normalnego konta użytkownika
     puts "Prosze podac nazwe uzytkownika(Bez duzych liter!):"
     $UserName = gets.chomp!
     system "useradd -m -G users,audio,lp,optical,storage,video,wheel,power"\
            " -s /bin/bash #{$UserName}"
+    puts "Prosze podac haslo dla uzytkownika:"
     system "passwd #{$UserName}"
     puts ""
     puts ""
