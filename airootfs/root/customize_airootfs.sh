@@ -27,6 +27,12 @@ sed -i 's/#\(HandleSuspendKey=\)suspend/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleHibernateKey=\)hibernate/\1ignore/' /etc/systemd/logind.conf
 sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
+printf "
+[Default Applications]
+inode/directory=nemo.desktop
+" >> /usr/share/applications/mimeapps.list
+
+
 systemctl enable pacman-init.service choose-mirror.service
 systemctl set-default multi-user.target
 
