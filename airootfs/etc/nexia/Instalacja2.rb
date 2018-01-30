@@ -190,7 +190,8 @@
     # Dodanie domyslnej konfiguracji mime
     system "printf '"\
            "\n[Default Applications]"\
-           "\ninode/directory=nemo.desktop"\
+           "\ninode/directory=nemo.desktop;"\
+           "\napplication/pdf=evince.desktop;"\
            "\n' >> /usr/share/applications/mimeapps.list"
 
     # Tworzenie podstawowej konfiguracji startx
