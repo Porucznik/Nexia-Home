@@ -29,7 +29,8 @@ sed -i 's/#\(HandleLidSwitch=\)suspend/\1ignore/' /etc/systemd/logind.conf
 
 printf "
 [Default Applications]
-inode/directory=nemo.desktop
+inode/directory=nemo.desktop;
+application/pdf=evince.desktop;
 " >> /usr/share/applications/mimeapps.list
 
 
