@@ -2,8 +2,9 @@
 # Domyślna tabulacja dokumentu - 4 spacje
 
     puts "Witamy w instalatorze systemu Nexia"
-    puts "Uwaga! Prosze zachowac ostroznosc, w szczegolnosci podczas montowania"\
-         " partycji!"
+    puts "Uwaga! Prosze zachowac ostroznosc, w szczegolnosci podczas"\
+         " montowania partycji!"
+
     # Ustawienia wyswietlania w powłoce tekstowej terminala
     system "loadkeys pl"
     system "setfont Lat2-Terminus16"
