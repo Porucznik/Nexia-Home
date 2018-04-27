@@ -57,16 +57,6 @@
     puts ""
     puts ""
 
-    #puts "Czy chcesz zainstalowac program Dropbox ? t/n"
-    #$CloudDisk = gets.chomp!
-    #if $CloudDisk == "t"
-    #    $ListaPaczek << "dropbox "
-    #elsif $CloudDisk == "n"
-    #    print "Zrezygnowano z instalacji programu."
-    #end
-    #puts ""
-    #puts ""
-
     puts "Czy chcesz zainstalowac graficzny menedzer pakietow ? t/n"
     $PackageSet = gets.chomp!
     if $PackageSet == "t"
@@ -117,16 +107,6 @@
     end
     puts ""
     puts ""
-
-    #puts "Czy chcesz zainstalowac komunikator Skype ? t/n"
-    #$VoiceChat = gets.chomp!
-    #if $VoiceChat == "t"
-    #    $ListaPaczek << "skype lib32-libpulse "
-    #elsif $VoiceChat == "n"
-    #    print "Zrezygnowano z instalacji programu."
-    #end
-    #puts ""
-    #puts ""
 
     puts "Czy chcesz zainstalowac program Wine ? t/n"
     $Wine = gets.chomp!
@@ -218,9 +198,9 @@
            " /etc/sudoers"
 
     # Konfiguracja programu sieciowego
-    system "systemctl enable NetworkManager.service"
     system "systemctl disable dhcpcd.service"
     system "systemctl disable dhcpcd@.service"
+    system "systemctl enable NetworkManager.service"
     system "systemctl enable wpa_supplicant.service"
     system "gpasswd -a #{$UserName} network"
 
