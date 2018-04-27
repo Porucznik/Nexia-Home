@@ -69,9 +69,6 @@
         system "cp /etc/skel/.xsession /mnt/etc/skel"
         system "mkdir /mnt/etc/skel/.config"
         system "mkdir /mnt/etc/skel/.config/dconf"
-        system "mkdir /mnt/etc/skel/.config/autostart"
-        system "cp /etc/skel/.config/autostart/conky.desktop"\
-               " /mnt/etc/skel/.config/autostart"
         system "cp /etc/skel/.config/dconf/user /mnt/etc/skel/.config/dconf"
         system "cp -R /etc/skel/.cinnamon /mnt/etc/skel"
         system "cp /etc/skel/.logo_full.png /mnt/etc/skel/"
@@ -93,16 +90,6 @@
         system "cp -R /usr/share/backgrounds/*.jpg /mnt/usr/share/backgrounds"
         system "cp /etc/lxdm.conf /mnt/home"
         system "cp -R /etc/nexia /mnt/etc"
-
-        # Zostaje przekopiowania różna konfiguracja conkiego w zależności
-        # czy istnieje osobna partycja home czy nie
-        if $HomeWybor == "t"
-            system "cp /etc/.conkyrc /mnt/etc/skel"
-        elsif $HomeWybor == "n"
-            system "cp /etc/skel/.conkyrc /mnt/etc/skel"
-        end
-        puts ""
-        puts ""
 
         # Uruchomienie 2 cześci instalatora
         system "arch-chroot /mnt ruby /etc/nexia/Instalacja2.rb"

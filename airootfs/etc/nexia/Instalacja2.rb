@@ -159,7 +159,7 @@
     system "pacman -S phonon-qt4-gstreamer phonon-qt5-gstreamer"\
            "  bash-completion xorg-server sudo networkmanager"\
            " xorg-xinit cinnamon cinnamon-control-center nemo"\
-           " gnome-terminal ntfs-3g conky xdg-user-dirs chromium"\
+           " gnome-terminal ntfs-3g xdg-user-dirs chromium"\
            " pepper-flash  xterm alsa-utils gksu gedit p7zip wxgtk"\
            " shotwell gnome-system-monitor gnome-keyring base-devel"\
            " cinnamon-screensaver gnome-calculator evince gnome-screenshot"\
