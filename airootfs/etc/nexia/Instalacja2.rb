@@ -160,7 +160,7 @@
            "  bash-completion xorg-server sudo networkmanager"\
            " xorg-xinit cinnamon cinnamon-control-center nemo"\
            " gnome-terminal ntfs-3g xdg-user-dirs chromium"\
-           " pepper-flash  xterm alsa-utils gksu gedit p7zip wxgtk"\
+           " pepper-flash  xterm alsa-utils gedit p7zip wxgtk"\
            " shotwell gnome-system-monitor gnome-keyring base-devel"\
            " cinnamon-screensaver gnome-calculator evince gnome-screenshot"\
            " nemo-fileroller #{$ListaPaczek} --noconfirm"
